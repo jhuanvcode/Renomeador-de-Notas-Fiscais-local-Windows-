@@ -1,0 +1,30 @@
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+
+# Saídas geradas pelo script (contêm caminhos, nomes de fornecedores e dados fiscais)
+historico_renomeacao.json
+historico_renomeacao.json.tmp
+log_renomeacao_nome.txt
+relatorio_renomeacao_nome.csv
+debug_extracao/
+
+# Dados reais (LGPD): nunca versionar notas fiscais
+*.pdf
+*.xml
+*.csv
+*.zip
+
+# Python / build
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.spec
+*.exe
+.DS_Store
+.vscode/
+.idea/
